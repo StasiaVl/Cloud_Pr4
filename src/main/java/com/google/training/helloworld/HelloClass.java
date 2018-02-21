@@ -11,10 +11,20 @@ public class HelloClass {
     }
     
     public HelloClass (String name, String period) {
+        int p = Integer.parseInt(period);
         
-        this.message = "";
-        for (int i = 0; i < Integer.parseInt(period); i++)
-            this.message += "Hello " + name + "!";
+        if (p%4 == 1) {
+            this.message = "Good morning, ";
+        } else if (p%4 == 2) {
+            this.message = "Good day, ";
+        } else if (p%4 == 3) {
+            this.message = "Good evening, ";
+        } else {
+            this.message = "Good night, ";
+        }
+        
+        this.message += name + "!";
+        
     }
     
     public HelloClass (String name, String surname, int times) {
