@@ -1,6 +1,8 @@
 endpoints-skeleton
 ==================
 
+**[Link to the cloud][7]**
+
 A skeleton application for Google Cloud Endpoints in Java.
 
 - [App Engine][1]
@@ -51,3 +53,4 @@ A skeleton application for Google Cloud Endpoints in Java.
 [4]: https://developers.google.com/appengine/docs/java/tools/maven
 [5]: https://localhost:8080/_ah/api/explorer
 [6]: https://console.developers.google.com/
+[7]: https://vladimirska-hello-endpoints.appspot.com/
